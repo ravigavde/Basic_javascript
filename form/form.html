@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validaitons</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <section>
+        <h1 class="heading">Please Enter your details</h1>
+    
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        <div class="details">
+            First-Name: <input type="text" name="fname"><br>
+            Last-Name: <input type="text" name="lname"><br>
+            DOB: <input type="date" name="dob"><br>
+            College: <input type="text" name="college"><br>
+            Email-id: <input type="email" name="email"><br>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</section>
+</body>
+
+</html>

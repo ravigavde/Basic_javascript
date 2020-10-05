@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1 class="heading">Choose your prefernce for Payment</h1>
+        </header>
+        <form action="">
+        <fieldset>
+            <legend>Please pick any one of these</legend>
+            <div class="selector">
+                <div class="option">
+                    <label for="radio1" class="names">COD</label>
+                    <input type="radio" value="1" name="radio" id="one" class="radio-btn">
+                </div>
+                <div class="option">
+                    <label for="radio2" class="names">Net Banking</label>
+                    <input type="radio" value="2" name="radio" id="two" class="radio-btn">
+                </div>
+                <div class="option">
+                    <label for="radio3" class="names">Credit Card</label>
+                    <input type="radio" value="3" name="radio" id="three" class="radio-btn">
+                </div>
+                <div class="option">
+                    <label for="radio4" class="names">Debit Card</label>
+                    <input type="radio" value="4" name="radio" id="four" class="radio-btn">
+                </div>
+            </div>
+            <input type="submit" value="Submit" onclick="ClickSubmit()" class="submit">
+        </form>
+    </fieldset>
+
+    </section>
+</body>
+
+</html>

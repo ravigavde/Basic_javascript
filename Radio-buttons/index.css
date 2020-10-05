@@ -1,0 +1,44 @@
+.heading{
+    text-align: center;
+}
+label{
+    margin-right: 0px;
+}
+fieldset{
+    width: 224px;
+    margin: 120px auto;
+    background-color: rgb(245, 242, 237);
+    opacity: 0.9;
+}
+fieldset:hover {
+    opacity: 1;
+}
+legend{
+    font-style: italic;
+}
+.option{
+    margin-top: 10px;
+}
+.submit{
+    display: block;
+    width: 60px;
+    margin: auto;
+}
+#one{
+    margin-left:129px ;
+}
+#two{
+    margin-left: 81px;
+}
+#three{
+    margin-left:87px ;
+}
+#four{
+    margin-left:91px ;
+}
+section{
+    background-image: url("images/India-Payments.jpg");
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+}

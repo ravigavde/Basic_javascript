@@ -1,0 +1,19 @@
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.details{
+    width: 80px;
+    margin: auto;
+    margin-left: 691px;
+}
+section{
+    background-image: url("images/iJ7tzU.jpg");
+    width: 100%;
+    height:720px;
+    background-size: cover;
+}
+body{
+    color: white;
+}
